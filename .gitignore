@@ -1,0 +1,55 @@
+# Built-in Gradle files and directories
+.gradle/
+build/
+app/build/
+**/build/
+.kotlin/
+
+# Android Studio and IntelliJ files
+*.iml
+.idea/
+*.ipr
+*.iws
+/out/
+.navigation/
+
+# Gradle signing keys, local configuration, and private secrets
+local.properties
+.env
+.env.production
+.env.local
+*.keystore
+!debug.keystore # Allow tracking of the development debug keystore if required for sharing, but typically ignored:
+# Note: For release builds, do NOT track production keystores or passwords!
+
+# Device and system-specific files
+Captures/
+.DS_Store
+Thumbs.db
+*.bak
+*.log
+
+# NDK/C++ build artifacts
+.externalNativeBuild/
+.cxx/
+cmake-build-*/
+
+# Gradle Wrapper - If committing the wrapper, uncomment these. If excluding:
+# gradlew
+# gradlew.bat
+# gradle/wrapper/gradle-wrapper.jar
+
+# Log files and crash dumps
+*.log
+*.sqlite
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Build Reports and testing outputs
+**/build/reports/
+**/build/test-results/
+**/build/outputs/apk/
+**/build/outputs/bundle/
+**/build/outputs/logs/
+.navigation/

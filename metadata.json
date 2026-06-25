@@ -1,0 +1,6 @@
+{
+  "name": "NTd_303 Social",
+  "description": "A production-grade modern social media platform client inspired by Twitter/X, featuring fully persistent Room DB, live feeds, messaging, and an admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
